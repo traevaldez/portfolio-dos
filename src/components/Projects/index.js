@@ -1,9 +1,17 @@
 import React from 'react'
 
-function Projects() {
+function Projects(props) {
+    const currentCategory = {
+        name: 'graphic design',
+        description: 'My graphic design work',
+    };
+
   return (
-    <div></div>
+    <section>
+        <h1>{currentCategory.name}</h1>
+        <p>{currentCategory.name}</p>
+    </section>
   )
 }
 
-export default Projects
+export default Projects;
